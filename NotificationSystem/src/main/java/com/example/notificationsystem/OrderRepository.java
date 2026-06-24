@@ -1,0 +1,10 @@
+package com.example.notificationsystem;
+
+import org.springframework.stereotype.Repository;
+@Repository
+public class OrderRepository {
+
+    public String getOrderInfo() {
+        return "Order #1234";
+    }
+}
